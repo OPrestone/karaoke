@@ -1,0 +1,96 @@
+body{
+    background: #02123c;
+    color: #bed5ff;
+}
+.simplebar-content,.sidebar-link, a.sidebar-link { 
+    background: #100429;
+}
+.sidebar-dropdown .sidebar-item.active .sidebar-link, .sidebar-dropdown .sidebar-link:hover,.sidebar-dropdown .sidebar-link {
+    
+    color: #d5d5d5;
+    background: #110424;
+}
+.sidebar, .navbar{
+    background: #110424;
+}
+.navbar {
+    border-bottom: 1px solid #110424;
+}
+.nav-icon { 
+    border: 1px solid #110424;
+    border-radius: 0.2rem;
+    background: #110424;
+}
+.card { 
+    background-color: #110424;
+    background-clip: border-box;
+    border: 1px solid #202c4600;
+    border-radius: 0.2rem;
+    color: #c5e4ff;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 { 
+    color: #fff;
+}
+.card-header { 
+    background-color: #110424;
+    border-bottom: 1px solid #25355a;
+}
+footer.footer {
+    background: #110424;
+    border-top: 1px solid #25355a;
+    padding: 1.25rem 0.75rem;
+}
+.sidebar-sticky .sidebar-content {
+    border-right: 1px solid #25355a; 
+}
+.sidebar-link, a.sidebar-link {
+    color: #aaaaaa;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #110424;
+}
+.table td, .table th { 
+    border-top: 1px solid #25355a;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #536795;
+}
+.page-item.disabled .page-link, .page-link, .day:hover  {
+    color: #c5c5c5;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #02113e !important;
+    border-color: #110424;
+}.navbar-search, .navbar-search:focus, .sidebar-brand, .sidebar-header {
+    background: #110424;
+}
+.sidebar-cta { 
+    background: #110424;
+    border: 1px solid #536796; 
+}
+ a.sidebar-link:hover,.sidebar-link:hover, .picker-switch:hover{
+    background: #110424 !important;
+    color: #bed5ff !important;
+}
+.apexcharts-menu,foreignObject {
+    background: #110424 !important; 
+    border: 1px solid #110424 !important; 
+}
+.apexcharts-menu-item:hover {
+    background: #110424 !important;
+}
+#world_map path{ 
+        fill: #8fa7e9; 
+}
+.sidebar, .sidebar-content {
+    transition: all .4s ease-in-out;
+    background: #110424;
+}
+.sidebar-brand{
+    color: #bdd5ff !important;
+}
+.titles {
+    color: #bdd5ff !important;
+    position: relative;
+}

@@ -1,0 +1,354 @@
+/* main {
+    background-color: #ECECEC!important;
+} */
+
+    /* CSS for file upload input */
+    .file-upload {
+        margin-top: 10px;
+    }
+html td, body{
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+    font-feature-settings: normal;
+    font-weight: 300;
+}
+h3{
+    position: relative;
+}
+    /* CSS for rounded image */
+    .rounded-image {
+        width: 100%;
+        aspect-ratio: 1/1;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+        cursor: pointer;
+        position: relative;
+    }
+
+    /* CSS for image icon */
+    .image-icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50px;
+        height: 50px;
+        background-image: url('image-icon.png'); /* Replace with your desired image icon */
+        background-size: cover;
+        z-index: 1;
+    }
+
+    .btn-dark {
+        color: #fff;
+        background-color: #000000;
+        border-color: #191919;
+    }
+    .ratio11{
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+    .ratio12{
+        aspect-ratio: 1/1.4;
+        object-fit: cover;
+    }
+    .ratio13{
+        aspect-ratio: 1/1.2;
+        object-fit: cover;
+    }
+    .ratio169{
+        aspect-ratio: 16/9;
+        object-fit: cover;
+    }
+    h1{
+        font-size: 50px;
+        font-weight: 800;
+    }
+    button{
+        white-space: nowrap;
+    }
+    .content {
+       min-height: calc(100vh - 100px);
+    }
+    .card-img-overlay {
+        position: absolute;
+        top: auto !important;
+        right: 0;
+        bottom: 0;
+
+    margin: 0 !important;
+        left: 0;
+        padding: 1.25rem;
+        border-radius: 0;
+        background: linear-gradient(180deg,transparent,#220f2b9c,#1d0828db,#110424,#110424) !important;
+    }
+    .sidebar .svg-inline--fa.fa-w-16,
+    .sidebar .feather,.svg-inline--fa.fa-w-20,
+    .sidebar .svg-inline--fa.fa-w-14 {
+        width: 1.4em;
+        height: 1.4em;
+    }
+
+    @media (min-width:768px) {
+        .fixed-bottom, .fixed-top{
+            display: none !important;
+        }
+    }
+    .fixed-right{
+        position: fixed;
+        right: 0;
+        bottom: 60px;
+    }
+        .fa {
+        font-size: 18px !important;
+    }
+    .bg-black{
+        background-color: black;
+    }
+    .bg-black .svg-inline--fa {
+        width: 20px;
+        height: 20px;
+    }
+     .fixed-right .svg-inline--fa {
+        width: 26px;
+        height: 26px;
+    }
+    .bg-btn .svg-inline--fa.fa-w-16 {
+        width: 25px;
+        height: 25px;
+    }
+        .bg-btn{
+        padding: 15px;
+        font-size: 23px;
+        border-radius: 50%;
+        position: relative;
+        background:linear-gradient(180deg, #E90E66 0%, rgba(165, 0, 66, 0.81) 100%)!important;
+    }
+
+        table .sticky-top {
+            top: 50px;
+        }
+
+        .audio-player{
+                display: none;
+            }
+        .hero .right .card-body {
+            box-shadow: 7px 7px 0 0px #E90E66;
+            background: transparent;
+            padding: 0 20px 20px 0;
+            border: none;
+        }
+            .hero
+            .card{
+            padding: 0 10px 10px 0;
+            background: transparent;
+            border:none;
+        }
+            .hero .left .card-body{
+            box-shadow: -7px -7px 0 0px #E90E66;
+            background: transparent;
+            padding: 10px 0 0 10px;
+            border:none;
+        }
+        body  {
+          position: relative;
+          background: url(https://img.freepik.com/free-photo/young-woman-singing-local-event_23-2149188110.jpg?w=826&t=st=1688548943~exp=1688549543~hmac=0806bf198cdbfe1d413789b59ddb7958a8c1b8b461641e98e9105f3fc96855a6) no-repeat center center;
+          background-size: cover;
+          background-attachment: fixed;
+          height: auto;
+        }
+        .text-prime{
+            color: #E90E66;
+        }
+        .card-img-overlay {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            padding: 1.25rem;
+            background: #270a1ac2;
+            margin: 20px;
+        }
+        body::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background:#000000ad;
+        }
+       .book{
+        position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+     .date{
+            position: absolute;
+            left: 0;
+        }
+        .date button{
+            display: block;
+            background: white;
+            width: max-content;
+            margin: 0;
+            padding: 7px;
+            font-size: 15px;
+            color: black;
+            border-radius: 0;
+            width: 111px;
+            font-weight: bold;
+        }
+        .date button.bg{
+            display: block;
+            background: #E90E66;
+            width: max-content;
+            margin: 0;
+            padding: 7px;
+            font-size: 15px;
+            color: rgb(255, 255, 255) !important;
+            width: 111px;
+        }
+/* width */
+.d-flex::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+        @media (max-width:768px) {
+            .audio-player {
+                bottom: 53px !important;
+                z-index: 999 !important;
+            }
+            .mb-2.d-flex.col-12.justify-content-between {
+                margin-bottom: 0.5rem!important;
+                border-bottom: 2px solid #212121;
+                padding-bottom: 5px;
+            }
+            .btn-bg {
+                font-size: 10px !important;
+            }
+            .right-hook,
+       .navbar{
+           display: none !important;
+       }
+       .ww.col-4{
+        width: 200px; position:relative; -ms-flex: 0 0 39.33333%;
+    flex: 0 0 39.33333%;
+    max-width: 39.33333%;
+       }
+       .lyrics.active{
+        font-size: 35px !important;
+        line-height: 35px !important;
+       }
+       body::before {
+        min-height: 100vh !important;
+    }
+       .lyrics{
+        font-size: 35px !important;
+        line-height: 35px !important;
+       }
+       .bg-black
+       a {
+           color: #fafafa;
+           text-decoration: none;
+       }
+       .content {
+           padding: 0;
+       }
+       .content {
+           padding-top: 50px;
+       }
+
+       .bg-black .text-center {
+           align-self: center;
+       }
+       .plyr--video {
+       overflow: hidden;
+       height: 100vh;
+   }
+   .row {
+       margin-right: 0;
+       margin-left: 0;
+   }.big-txt {
+       font-size: 22px !important;
+   }
+       }
+       .btn-bg {
+        position: relative;
+        background: linear-gradient(180deg, #E90E66 0%, rgba(165, 0, 66, 0.81) 100%)!important;
+        color: white;
+        border-radius: 0;
+        padding: 2px 6px;
+        font-size: 14px;
+        margin: 0;
+        border: none;
+        white-space: nowrap;
+        font-weight: 400;
+    }
+    .playing .ply{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .playing {
+        position: relative;
+    }
+.songs_square
+ svg:not(:root).svg-inline--fa{
+    position: absolute;
+    top: auto;
+    right: 5px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    font-size: 18px;
+    width: 25px;
+    height: 25px;
+    line-height: 28px;
+    text-align: center;
+    padding: 5px;
+    bottom: 5px;
+}
+.videos img
+{
+    border-radius: 7px;
+}
+.videos
+.playing .ply {
+    position: absolute;
+    top: auto;
+    left: 7px;
+    bottom: 7px;
+    transform: inherit;
+}
+.nav-pills .nav-link {
+    border-radius: 0.2rem;
+    background: #3a3a3a;
+    margin: 7px;
+    border-radius: 6px;
+    padding: 5px 15px;
+    color: white;
+}.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #b5084e;
+}

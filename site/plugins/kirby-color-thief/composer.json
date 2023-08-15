@@ -1,0 +1,10 @@
+{
+    "name": "olafapl/kirby-color-thief",
+    "description": "Plugin for Kirby 3 for extracting dominant colors from images",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "require": {
+        "ksubileau/color-thief-php": "^1.4",
+        "getkirby/composer-installer": "^1.1"
+    }
+}

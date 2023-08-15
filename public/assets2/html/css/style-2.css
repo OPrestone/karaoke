@@ -1,0 +1,121 @@
+/*
+Template: Karaoke Nation
+Author: Prestone Otieno
+Design and Developed by: Prestone Otieno
+NOTE: This file contains the styling for responsive Template.
+*/
+
+/*================================================
+[  Table of contents  ]
+================================================
+
+:: General
+:: Badge
+:: Media Support
+:: Best Sellers
+:: Profile Avatar
+:: Countdown
+:: Progressbar
+:: Dropdown Menu
+:: Badge Img Tag
+:: List Style 1
+:: Icon Box
+:: Tasks Card
+:: Sign In
+:: Dash Hover
+:: Waves Effect
+:: Sidebar
+:: Sidebar Menu
+:: Top Menu
+:: Content Page
+:: Error Page
+:: OWL Carousel
+:: Timeline
+:: Team
+:: User Add Block
+:: Email list
+:: Booking list
+:: Chart
+:: Material Card Style
+:: Circle Progressbar
+:: Tikit Booking List
+:: Right Sidebar Menu
+:: FAQ
+:: Pricing Table
+:: Table
+:: Animation Card
+:: Footer
+:: Map Profile
+:: Mail Inbox
+:: Slick Arrow
+:: Calender
+:: From Wizard
+:: Chat
+:: Profile
+:: Todo
+:: Privacy Policy
+:: User List
+:: Add User
+:: music player
+======================================
+[ End table content ]
+======================================*/
+
+/*--------------------------------------------------------------------
+                            General
+---------------------------------------------------------------------*/
+
+.ratio12{
+  aspect-ratio: 1/2;
+  object-fit: cover;
+}
+.ratio169{
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+.ratio11{
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+.ratio115{
+  aspect-ratio: 1.8/2;
+  object-fit: cover;
+}
+.date {
+  position: absolute; 
+  top: 0;
+}.date button {
+  display: block;
+  background: white;
+  width: max-content;
+  margin: 0;
+  padding: 7px;
+  font-size: 15px;
+  color: black;
+  border-radius: 0;
+  width: 111px;
+  font-weight: bold;
+} 
+.date button.bg {
+    display: block;
+    background: #E90E66;
+    width: max-content;
+    margin: 0;
+    padding: 7px;
+    font-size: 15px;
+    color: rgb(255, 255, 255) !important;
+    width: 111px;
+}
+.reg-btns button {
+  display: block;
+  background: white;
+  width: max-content;
+  margin: 0;
+  padding: 7px;
+  font-size: 15px;
+  color: black;
+  border-radius: 0;
+  width: 111px;
+  font-weight: bold;
+  white-space: nowrap;
+} 

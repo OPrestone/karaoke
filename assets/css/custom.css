@@ -1,0 +1,43 @@
+body {
+    background: rgb(254 247 224 / 33%)!important;
+}
+.zindex {
+    z-index: 9999;
+}
+.card-img-overlay {
+    position: absolute;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.25rem;
+    border-radius: calc(0.25rem - 1px);
+    background: linear-gradient(180deg,transparent,black);
+}
+.h180{
+    max-width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.h300{
+    height: 300px;
+    object-fit: cover;
+}
+.comment .h60 {
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50% !important;
+    width: 70px !important;
+}
+.comment textarea{
+    border: 1px solid #d0d0d0;
+}
+.w-75
+.w-75 {
+    width: 90% !important;
+}
+.h230 {
+    max-width: 100%;
+    height: 250px;
+    object-fit: cover;
+}

@@ -1,0 +1,88 @@
+body{
+    background: #02123c;
+    color: #bed5ff;
+}
+.simplebar-content,.sidebar-link, a.sidebar-link { 
+    background: #0b1c4b;
+}
+.sidebar-dropdown .sidebar-item.active .sidebar-link, .sidebar-dropdown .sidebar-link:hover,.sidebar-dropdown .sidebar-link {
+    
+    color: #d5d5d5;
+    background: #02113d;
+}
+.sidebar, .navbar{
+    background: #0a1c4b;
+}
+.navbar {
+    border-bottom: 1px solid #253559;
+}
+.nav-icon { 
+    border: 1px solid #02113d;
+    border-radius: 0.2rem;
+    background: #02113d;
+}
+.card { 
+    background-color: #0a1c4b;
+    background-clip: border-box;
+    border: 1px solid #202c4600;
+    border-radius: 0.2rem;
+    color: #c5e4ff;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 { 
+    color: #fff;
+}
+.card-header { 
+    background-color: #0a1c4b;
+    border-bottom: 1px solid #25355a;
+}
+footer.footer {
+    background: #0a1c4b;
+    border-top: 1px solid #25355a;
+    padding: 1.25rem 0.75rem;
+}
+.sidebar-sticky .sidebar-content {
+    border-right: 1px solid #25355a; 
+}
+.sidebar-brand {
+    color: #bdd5ff;
+}
+.sidebar-link, a.sidebar-link {
+    color: #aaaaaa;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #02113d;
+}
+.table td, .table th { 
+    border-top: 1px solid #25355a;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #536795;
+}
+.page-item.disabled .page-link, .page-link, .day:hover  {
+    color: #c5c5c5;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #02113e !important;
+    border-color: #072961;
+}.navbar-search, .navbar-search:focus, .sidebar-brand, .sidebar-header {
+    background: #02113d;
+}
+.sidebar-cta { 
+    background: #02113d;
+    border: 1px solid #536796; 
+}
+ a.sidebar-link:hover,.sidebar-link:hover, .picker-switch:hover{
+    background: #0a1c4b !important;
+    color: #bed5ff !important;
+}
+.apexcharts-menu,foreignObject {
+    background: #02113d !important; 
+    border: 1px solid #0a1c4b !important; 
+}
+.apexcharts-menu-item:hover {
+    background: #0a1c4b !important;
+}
+#world_map path{ 
+        fill: #8fa7e9; 
+}
